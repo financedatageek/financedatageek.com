@@ -168,16 +168,18 @@ article section {
 }
 
 article pre {
-  background-color: #EFEFEF;
-  border: 1px solid #CCC;
-  padding: 20px;
+  background-color: #F6F8FA;
+  border: none;
+  padding: 16px;
   margin-bottom: 1.5rem;
+  line-height: 1.45;
+  font-size: 90%;
 }
 
 article blockquote {
-  border-left: 2px solid #CCC;
+  border-left: 0.25em solid #DFE2E5;
   margin: 0px 0px;
-  padding: 0px 20px;
+  padding: 0 1em;
 }
 
 article code {
