@@ -91,3 +91,7 @@ ENV/
 # Pelican-generated output
 output/*
 *.pid
+
+# Other
+public_html/*
+ssl_instructions.txt
