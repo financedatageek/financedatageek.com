@@ -2,12 +2,14 @@
 
 {% block content %}
 
-  {% for article in articles %}
-  <section class="front">
-    <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
-    <time>Published {{ article.locale_date }}</time>
-    <p>{{ article.summary }}</p>
-  </section>
-  {% endfor %}
+  <main class="front">
+    {% for article in articles %}
+    <section class="front">
+      <h1><a href="{{ article.url }}">{{ article.title }}</a></h1>
+      <time>Published {{ article.locale_date }}</time>
+      <p>{{ article.summary }}</p>
+    </section>
+    {% endfor %}
+  </main>
 
 {% endblock %}

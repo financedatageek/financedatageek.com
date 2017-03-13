@@ -72,10 +72,11 @@ nav ul li a:hover {
 
 main {
   margin-top: 0px;
+  padding-bottom: 25px;
   background-color: #FFF;
 }
 
-/* Front Page Sections */
+/* Front Page  */
 
 section.front {
   border-bottom: 1px dotted #303030;
@@ -123,6 +124,93 @@ section.front p {
   font-size: 1.3em;
 }
 
+/* Article Pages */
+
+main.article-page > h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #07889B;
+  margin: 35px 0px 10px 0px;
+}
+
+main.article-page > time {
+  display: block;
+  font-family: "Oswald", sans-serif;
+  font-size: 1.2em;
+  color: #66B9BF;
+  text-transform: uppercase;
+  font-weight: 200;
+  margin-bottom: 25px;
+}
+
+article {
+  color: #24292E;
+}
+
+article > h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 1.8em;
+  font-weight: 300;
+  margin: 35px 0px 10px 0px;
+}
+
+article p {
+  margin-bottom: 1.5rem;
+}
+
+article h2 {
+  font-size: 1.8em;
+}
+
+article section {
+  margin: 100px;
+}
+
+article pre {
+  background-color: #EFEFEF;
+  border: 1px solid #CCC;
+  padding: 20px;
+  margin-bottom: 1.5rem;
+}
+
+article blockquote {
+  border-left: 2px solid #CCC;
+  margin: 0px 0px;
+  padding: 0px 20px;
+}
+
+article code {
+  background: none;
+  border: 0px;
+  margin: inherit;
+  padding: inherit;
+  font-size: inherit;
+  border-radius: none;
+}
+
+article a {
+  color: #07889B;
+}
+
+article a:hover {
+  color: #E37222;
+}
+
+/* Pages */
+
+main.page {
+  
+}
+
+main.page > h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 2.4em;
+  font-weight: 300;
+  color: #07889B;
+  margin: 35px 0px 25px 0px;
+}
+
 /* Footer */
 
 footer {
@@ -145,49 +233,4 @@ footer a {
 
 footer a:hover {
   color: #E37222;
-}
-
-/* Page Article Content */
-
-div.article-header h1 {
-  font-family: "Oswald", sans-serif;
-  font-size: 2.4em;
-  font-weight: 300;
-  color: #07889B;
-  margin: 35px 0px 10px 0px;
-}
-
-div.article-header time {
-  display: block;
-  font-family: "Oswald", sans-serif;
-  font-size: 1.2em;
-  color: #66B9BF;
-  text-transform: uppercase;
-  font-weight: 200;
-  margin-bottom: 25px;
-}
-
-blockquote {
-  border-left: 2px solid #EFEFEF;
-  margin: 40px 0;
-  padding: 5px 30px;
-}
-
-article {
-  color: #24292E;
-}
-
-article h1 {
-  font-family: "Oswald", sans-serif;
-  font-size: 1.8em;
-  font-weight: 300;
-  margin: 35px 0px 10px 0px;
-}
-
-article h2 {
-  font-size: 1.8em;
-}
-
-article section {
-  margin: 100px;
 }

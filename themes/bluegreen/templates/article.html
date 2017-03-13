@@ -4,13 +4,15 @@
 
 {% block content %}
   
-  <div class="article-header">
+  <main class="article-page">
+
     <h1>{{ article.title }}</h1>
     <time>Published {{ article.locale_date }}</time>
-  </div>
 
-  <article>
-    {{ article.content }}
-  </article>
+    <article>
+      {{ article.content }}
+    </article>
+
+  </main>
 
 {% endblock content %}
