@@ -44,7 +44,7 @@ ARTICLE_SAVE_AS = '{slug}.html'
 THEME_STATIC_DIR = 'static'
 
 # Delete everything in the output directory when generating
-DELETE_OUTPUT_DIRECTORY = True
+DELETE_OUTPUT_DIRECTORY = False
 
 STATIC_PATHS = ['extra/favicon.ico']
 EXTRA_PATH_METADATA = {
