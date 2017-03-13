@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ article.title }}{% endblock title %}
+
+{% block content %}
+  
+  <div class="article-header">
+    <h1>{{ article.title }}</h1>
+    <time>Published {{ article.locale_date }}</time>
+  </div>
+
+  <article>
+    {{ article.content }}
+  </article>
+
+{% endblock content %}

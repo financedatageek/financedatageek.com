@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Finance Data Geek</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="static/images/favicon.png" />
+
+  <link rel="stylesheet" href="static/css/normalize.css" />
+  <link rel="stylesheet" href="static/css/skeleton.css" />
+  <link rel="stylesheet" href="static/css/styles.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500" />
+
+</head>
+
+<body>
+
+  <main>
+
+  <!-- .container is main centered wrapper -->
+  <div class="container">
+
+  <header>
+    <img src="static/images/logo.svg" />
+    <h1>Finance Data Geek</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Github</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock content %}
+
+  </div><!-- /.container -->
+
+  </main>
+
+  <footer>
+    <p>&copy; 2017 Finance Data Geek. All rights reserved.</p>
+    <p>Proudly created by Scott Newman. Feel free to <a href="#">Contact Me</a>.</p>
+  </footer>
+
+</body>
+</html>
